@@ -19,7 +19,7 @@ class Die extends Component {
         
         // with an arrow function 
         //onClick={() => this.props.handleClick(this.props.idx)}
-        // not using arrow function (premature performance)
+        // not using arrow function (premature performance optimization)
         onClick={this.handleClick}
       >
         {this.props.val}
